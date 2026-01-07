@@ -10,8 +10,15 @@ body{
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+h1{
+  margin: 10px;
+}
+
+.by{
+  margin-top: 0px ;
+}
 .app{
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

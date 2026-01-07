@@ -16,7 +16,7 @@ function App() {
   return (
     <div className={`app ${theme}`}>
       <h1>Theme Toggle</h1>
-      <p>by Grushnesh</p>
+      <p className='by'>by Grushnesh</p>
       <p>Current Theme: {theme.toUpperCase()}</p>
       <button onClick={toggleTheme}>
         Switch to {theme === "light" ? "Dark" : "Light"} Mode
