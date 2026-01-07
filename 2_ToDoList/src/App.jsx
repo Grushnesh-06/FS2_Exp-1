@@ -17,6 +17,7 @@ function App() {
   return (
     <div>
       <h1>To Do List</h1>
+      <p className='by'>by Grushnesh</p>
       <input value={task} onChange={(e) => setTask(e.target.value)} />
       <button className='add' onClick={addTask}>Add Item</button>
       <ul>
